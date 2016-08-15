@@ -1,0 +1,136 @@
+body{
+  background-color:#f5f8fa;
+}
+header {
+  width: 100%;
+  background-color:#fff;
+  height: 54px;
+}
+.navbar-default {
+    border: 0;
+    padding: 5px 25px;
+}
+.navbar {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 0px;
+}
+.navbar-default {
+  .navbar-brand {
+    color: #ccc;
+    &:hover {
+      color: white;
+    }
+  }
+  .navbar-nav > li > a {
+    color: #ccc;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+  .navbar-nav > .open > a {
+    background-color: transparent;
+    color: white;
+    &:hover, &:focus {
+      background-color: transparent;
+      color: white;
+    }
+  }
+}
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ccc;
+    text-align: center;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+    &:hover, &:focus {
+      background-color: transparent;
+    }
+  }
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("images-master/header.jpg");
+  background-attachment: fixed;
+}
+
+.main-header img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  padding-top: 16%;
+}
+
+.about {
+  background-color: white;
+  color: #333;
+  padding: 80px;
+}
+
+.function {
+  background-color: #e9e9e9;
+  padding: 80px;
+  padding-bottom:185px;
+}
+
+.function-images {
+  width: 100%;
+  display: table;
+  margin-top: 60px;
+  table-layout: fixed;
+}
+
+.function-image {
+  display: table-cell;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0px;
+  color: #222222;
+  font-size: 12px;
+  width: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#top_page .row .col-sm-6{
+  text-align:center;
+}
+#top_text{
+  padding-top:100px;
+}
+#tweet_text{
+  background:#fff;
+  border-radius:4px;
+}
+
+.tweets{
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    padding: 30px;
+    text-align: left;
+}
+
+.container{
+  padding-top:15px;
+}
