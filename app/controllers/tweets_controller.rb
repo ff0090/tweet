@@ -1,6 +1,4 @@
 class TweetsController < ApplicationController
-  
-  
   def index
     @tweets = Tweet.all
   end
@@ -38,8 +36,6 @@ class TweetsController < ApplicationController
   
   def create
      @tweets = Tweet.create(tweets_params)
-    #@tweets.id =  set_primary_key :column_name
-    # user_idを代入する
     if @tweets.save
       redirect_to tweets_path, notice: "tweetを投稿しました！"
     else
@@ -51,6 +47,4 @@ class TweetsController < ApplicationController
     def tweets_params
       params.require(:tweet).permit(:content)
     end
-  
-  
 end
